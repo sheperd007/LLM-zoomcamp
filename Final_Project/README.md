@@ -42,7 +42,7 @@ You can find the data in [`data/data.csv`](data/data.csv).
 - Python 3.12
 - Docker and Docker Compose for containerization
 - [Minsearch](https://github.com/alexeygrigorev/minsearch) for full-text search
-- Flask as the API interface (see [Background](#background) for more information on Flask)
+- FastAPI as the API interface (see [Background](#background) for more information on FastAPI)
 - Grafana for monitoring and PostgreSQL as the backend for it
 - OpenAI as an LLM
 
@@ -304,7 +304,7 @@ After sending it, you'll receive the acknowledgement:
 
 The code for the application is in the [`IT_team_assistance`](IT_team_assistance/) folder:
 
-- [`app.py`](IT_team_assistance/app.py) - the Flask API, the main entrypoint to the application
+- [`app.py`](IT_team_assistance/app.py) - the FastAPI API, the main entrypoint to the application
 - [`rag.py`](IT_team_assistance/rag.py) - the main RAG logic for building the retrieving the data and building the prompt
 - [`ingest.py`](IT_team_assistance/ingest.py) - loading the data into the knowledge base
 - [`minsearch.py`](IT_team_assistance/minsearch.py) - an in-memory search engine
@@ -318,7 +318,7 @@ We also have some code in the project root directory:
 
 ### Interface
 
-We use Flask for serving the application as an API.
+We use FastAPI for serving the application as an API.
 
 Refer to the ["Using the Application" section](#using-the-application)
 for examples on how to interact with the application.
@@ -446,14 +446,14 @@ When prompted, keep "admin" as the new password.
 Here we provide background on some tech not used in the
 course and links for further reading.
 
-### Flask
+### FastAPI
 
-We use Flask for creating the API interface for our application.
-It's a web application framework for Python: we can easily
+We use FastAPI for creating the API interface for our application.
+It's a modern, fast web framework for building APIs with Python: we can easily
 create an endpoint for asking questions and use web clients
 (like `curl` or `requests`) for communicating with it.
 
 In our case, we can send questions to `http://localhost:5000/question`.
 
-For more information, visit the [official Flask documentation](https://flask.palletsprojects.com/).
+For more information, visit the [official FastAPI documentation](https://fastapi.tiangolo.com/).
 
