@@ -210,7 +210,7 @@ sudo apt install ntpdate
 sudo ntpdate time.windows.com
 ```
 
-Note that the time is in UTC.
+Note that the time is in Asia/Muscat.
 
 After that, start the application (and the database) again.
 
@@ -333,23 +333,6 @@ of the application.
 
 It's executed inside [`rag.py`](IT_team_assistance/rag.py)
 when we import it.
-
-## Experiments
-
-For experiments, we use Jupyter notebooks.
-They are in the [`notebooks`](notebooks/) folder.
-
-To start Jupyter, run:
-
-```bash
-cd notebooks
-pipenv run jupyter notebook
-```
-
-We have the following notebooks:
-
-- [`rag-test.ipynb`](notebooks/rag-test.ipynb): The RAG flow and evaluating the system.
-- [`evaluation-data-generation.ipynb`](notebooks/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
 
 ### Retrieval evaluation
 
