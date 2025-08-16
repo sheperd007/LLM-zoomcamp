@@ -373,6 +373,7 @@ We also tested `gpt-4o`:
 - 22 (11%) `PARTLY_RELEVANT`
 - 2 (1%) `NON_RELEVANT`
 
+
 The difference is minimal, so we opted for `gpt-4o-mini`.
 
 ## Monitoring
