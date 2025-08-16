@@ -180,14 +180,14 @@ When you start the application, you will see the following in
 your logs:
 
 ```
-Database timezone: Etc/UTC
-Database current time (UTC): 2024-08-24 06:43:12.169624+00:00
-Database current time (Europe/Berlin): 2024-08-24 08:43:12.169624+02:00
+Database timezone: Asia/Muscat
+Database current time (Muscat): 2024-08-24 06:43:12.169624+00:00
+Database current time (Asia/Muscat): 2024-08-24 08:43:12.169624+02:00
 Python current time: 2024-08-24 08:43:12.170246+02:00
-Inserted time (UTC): 2024-08-24 06:43:12.170246+00:00
-Inserted time (Europe/Berlin): 2024-08-24 08:43:12.170246+02:00
-Selected time (UTC): 2024-08-24 06:43:12.170246+00:00
-Selected time (Europe/Berlin): 2024-08-24 08:43:12.170246+02:00
+Inserted time (Muscat): 2024-08-24 06:43:12.170246+00:00
+Inserted time (Asia/Muscat): 2024-08-24 08:43:12.170246+02:00
+Selected time (Muscat): 2024-08-24 06:43:12.170246+00:00
+Selected time (Asia/Muscat): 2024-08-24 08:43:12.170246+02:00
 ```
 
 Make sure the time is correct.
