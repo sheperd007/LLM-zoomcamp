@@ -363,14 +363,14 @@ of our RAG flow.
 
 For `gpt-4o-mini`, in a sample with 200 records, we had:
 
-- 167 (83%) `RELEVANT`
-- 30 (15%) `PARTLY_RELEVANT`
+- 172 (86%) `RELEVANT`
+- 25 (12.5%) `PARTLY_RELEVANT`
 - 3 (1.5%) `NON_RELEVANT`
 
 We also tested `gpt-4o`:
 
-- 168 (84%) `RELEVANT`
-- 30 (15%) `PARTLY_RELEVANT`
+- 176 (88%) `RELEVANT`
+- 22 (11%) `PARTLY_RELEVANT`
 - 2 (1%) `NON_RELEVANT`
 
 The difference is minimal, so we opted for `gpt-4o-mini`.
